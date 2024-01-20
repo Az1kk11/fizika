@@ -37,13 +37,13 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                 {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             </span>
             <h1 className='logo'>FIZIKA</h1>
-            <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']} style={{ height: '100vh' }}>
+            <Menu theme="dark" mode='inline' defaultSelectedKeys={['0']} style={{ height: '100vh' }}>
 
-                <Menu.Item key="1">
+                <Menu.Item key="home">
                     <Link to="/">Bas bet</Link>
                 </Menu.Item>
 
-                <Menu.Item key="2323">
+                <Menu.Item key="annotaciya">
                     <Link to="/annotaciya">Annotaciya</Link>
                 </Menu.Item>
 

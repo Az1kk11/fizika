@@ -11,14 +11,14 @@ export const Home = () => {
         <h1>Muhammed al-Xorezmiy atındaǵı  Tashkent informaciyalıq texnologiyaları universiteti Nókis filialı</h1>
         <br />
         <div className='logo-wrap'>
-          <img width={200} height={200} src={logo} alt="" />
+          <img src={logo} alt="" />
         </div>
         <br />
         <h4>"Fizika páni boyınsha prezentaciyalıq multimedialı shınıǵıwlar toplamı" cifrlı tálim ortalıǵı</h4>
         <span style={{ marginTop: '10px' }} >Tábiyiy hám anıq pánler kafedrası</span>
         <span><b>Dúziwshi</b>: <span className='underline'>ass. S.G. Kaypnazarov</span></span>
         <br /><br />
-        <br /><br />
+        <br /><br /> 
         <span style={{ fontWeight: 'bold' }}>Nókis - 2023</span>
       </div>
     </div>
