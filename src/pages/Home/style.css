@@ -1,3 +1,47 @@
-.home{
-    background-color: saddlebrown;
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    min-height: 100vh;
+    animation: opacity 0.5s ease;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.home-container h1 {
+    color: #000;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+}
+
+.home-container h4 {
+    color: #777;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.home-container span {
+    color: #333;
+    font-size: 1rem;
+}
+
+.home-container .underline {
+    text-decoration: underline;
+}
+
+.logo-wrap img {
+    width: 108%;
 }

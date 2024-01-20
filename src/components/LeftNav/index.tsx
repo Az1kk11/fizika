@@ -36,7 +36,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
             >
                 {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             </span>
-            <h1 className='logo'>FIZIKA <span>I</span></h1>
+            <h1 className='logo'>FIZIKA</h1>
             <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']} style={{ height: '100vh' }}>
 
                 <Menu.Item key="1">
@@ -56,7 +56,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                                 <Link to="/7-klass/prezentaciya/tekst">Prezentaciyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="prezentaciyalar-video-7">
-                                <Link to="/7-klass/prezentaciya/video">Video prezentaciya</Link>
+                                <Link to="/7-klass/prezentaciya/video">Video prezentaciyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -78,19 +78,19 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="laboratoriya-shınıgıwları-7" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="laboratoriya-shınıgıwları-7" title={<span>Laboratoriya shınıǵıwları</span>} >
                             <Menu.Item key="laboratoriya-tekst-7">
                                 <Link to="/7-klass/laboratoriyalar/tekst">Laboratoriyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-video-7">
-                                <Link to="/7-klass/laboratoriyalar/video">Video laboratoriya</Link>
+                                <Link to="/7-klass/laboratoriyalar/video">Video laboratoriyalar</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-vertual-7">
                                 <Link to="/7-klass/laboratoriyalar/video-cifrlı-virtual">Video cifrlı virtual laboratoriyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-7" title={<span>Óz betinshe talim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-7" title={<span>Óz betinshe tálim shınığıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-7">
                                 <Link to="/7-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -99,12 +99,12 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="joybar-jumışları-7" title={<span>Joybar jumışları</span>} >
+                        <Menu.SubMenu key="joybar-jumışları-7" title={<span>Joybar jumısları</span>} >
                             <Menu.Item key="joybar-jumışları-tekst-7">
-                                <Link to="/7-klass/joybar-jumışları/tekst">Joybar jumislar teksti</Link>
+                                <Link to="/7-klass/joybar-jumışları/tekst">Joybar jumıslar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="joybar-jumışları-video-7">
-                                <Link to="/7-klass/joybar-jumışları/video">Video joybar jumislar</Link>
+                                <Link to="/7-klass/joybar-jumışları/video">Video joybar jumıslar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -117,7 +117,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                                 <Link to="/8-klass/prezentaciya/tekst">Prezentaciyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="prezentaciyalar-video-8">
-                                <Link to="/8-klass/prezentaciya/video">Video prezentaciya</Link>
+                                <Link to="/8-klass/prezentaciya/video">Video prezentaciyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -139,19 +139,19 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="laboratoriya-shınıgıwları-8" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="laboratoriya-shınıgıwları-8" title={<span>Laboratoriya shınıǵıwları</span>} >
                             <Menu.Item key="laboratoriya-tekst-8">
                                 <Link to="/8-klass/laboratoriyalar/tekst">Laboratoriyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-video-8">
-                                <Link to="/8-klass/laboratoriyalar/video">Video laboratoriya</Link>
+                                <Link to="/8-klass/laboratoriyalar/video">Video laboratoriyalar</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-vertual-8">
                                 <Link to="/8-klass/laboratoriyalar/video-cifrlı-virtual">Video cifrlı virtual laboratoriyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-8" title={<span>Óz betinshe talim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-8" title={<span>Óz betinshe tálim shınığıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-8">
                                 <Link to="/8-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -160,12 +160,12 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="joybar-jumışları-8" title={<span>Joybar jumışları</span>} >
+                        <Menu.SubMenu key="joybar-jumışları-8" title={<span>Joybar jumısları</span>} >
                             <Menu.Item key="joybar-jumışları-tekst-8">
-                                <Link to="/8-klass/joybar-jumışları/tekst">Joybar jumislar teksti</Link>
+                                <Link to="/8-klass/joybar-jumışları/tekst">Joybar jumıslar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="joybar-jumışları-video-8">
-                                <Link to="/8-klass/joybar-jumışları/video">Video joybar jumislar</Link>
+                                <Link to="/8-klass/joybar-jumışları/video">Video joybar jumıslar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -178,7 +178,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                                 <Link to="/9-klass/prezentaciya/tekst">Prezentaciyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="prezentaciyalar-video-9">
-                                <Link to="/9-klass/prezentaciya/video">Video prezentaciya</Link>
+                                <Link to="/9-klass/prezentaciya/video">Video prezentaciyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -200,19 +200,19 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="laboratoriya-shınıgıwları-9" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="laboratoriya-shınıgıwları-9" title={<span>Laboratoriya shınıǵıwları</span>} >
                             <Menu.Item key="laboratoriya-tekst-9">
                                 <Link to="/9-klass/laboratoriyalar/tekst">Laboratoriyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-video-9">
-                                <Link to="/9-klass/laboratoriyalar/video">Video laboratoriya</Link>
+                                <Link to="/9-klass/laboratoriyalar/video">Video laboratoriyalar</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-vertual-9">
                                 <Link to="/9-klass/laboratoriyalar/video-cifrlı-virtual">Video cifrlı virtual laboratoriyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-9" title={<span>Óz betinshe talim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-9" title={<span>Óz betinshe tálim shınığıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-9">
                                 <Link to="/9-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -221,12 +221,12 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="joybar-jumışları-9" title={<span>Joybar jumışları</span>} >
+                        <Menu.SubMenu key="joybar-jumışları-9" title={<span>Joybar jumısları</span>} >
                             <Menu.Item key="joybar-jumışları-tekst-9">
-                                <Link to="/9-klass/joybar-jumışları/tekst">Joybar jumislar teksti</Link>
+                                <Link to="/9-klass/joybar-jumışları/tekst">Joybar jumıslar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="joybar-jumışları-video-9">
-                                <Link to="/9-klass/joybar-jumışları/video">Video joybar jumislar</Link>
+                                <Link to="/9-klass/joybar-jumışları/video">Video joybar jumıslar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -239,7 +239,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                                 <Link to="/10-klass/prezentaciya/tekst">Prezentaciyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="prezentaciyalar-video-10">
-                                <Link to="/10-klass/prezentaciya/video">Video prezentaciya</Link>
+                                <Link to="/10-klass/prezentaciya/video">Video prezentaciyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -261,19 +261,19 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="laboratoriya-shınıgıwları-10" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="laboratoriya-shınıgıwları-10" title={<span>Laboratoriya shınıǵıwları</span>} >
                             <Menu.Item key="laboratoriya-tekst-10">
                                 <Link to="/10-klass/laboratoriyalar/tekst">Laboratoriyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-video-10">
-                                <Link to="/10-klass/laboratoriyalar/video">Video laboratoriya</Link>
+                                <Link to="/10-klass/laboratoriyalar/video">Video laboratoriyalar</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-vertual-10">
                                 <Link to="/10-klass/laboratoriyalar/video-cifrlı-virtual">Video cifrlı virtual laboratoriyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-10" title={<span>Óz betinshe talim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-10" title={<span>Óz betinshe tálim shınığıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-10">
                                 <Link to="/10-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -282,12 +282,12 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="joybar-jumışları-10" title={<span>Joybar jumışları</span>} >
+                        <Menu.SubMenu key="joybar-jumışları-10" title={<span>Joybar jumısları</span>} >
                             <Menu.Item key="joybar-jumışları-tekst-10">
-                                <Link to="/10-klass/joybar-jumışları/tekst">Joybar jumislar teksti</Link>
+                                <Link to="/10-klass/joybar-jumışları/tekst">Joybar jumıslar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="joybar-jumışları-video-10">
-                                <Link to="/10-klass/joybar-jumışları/video">Video joybar jumislar</Link>
+                                <Link to="/10-klass/joybar-jumışları/video">Video joybar jumıslar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -300,7 +300,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                                 <Link to="/11-klass/prezentaciya/tekst">Prezentaciyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="prezentaciyalar-video-11">
-                                <Link to="/11-klass/prezentaciya/video">Video prezentaciya</Link>
+                                <Link to="/11-klass/prezentaciya/video">Video prezentaciyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
@@ -322,19 +322,19 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="laboratoriya-shınıgıwları-11" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="laboratoriya-shınıgıwları-11" title={<span>Laboratoriya shınıǵıwları</span>} >
                             <Menu.Item key="laboratoriya-tekst-11">
                                 <Link to="/11-klass/laboratoriyalar/tekst">Laboratoriyalar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-video-11">
-                                <Link to="/11-klass/laboratoriyalar/video">Video laboratoriya</Link>
+                                <Link to="/11-klass/laboratoriyalar/video">Video laboratoriyalar</Link>
                             </Menu.Item>
                             <Menu.Item key="laboratoriya-vertual-11">
                                 <Link to="/11-klass/laboratoriyalar/video-cifrlı-virtual">Video cifrlı virtual laboratoriyalar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-11" title={<span>Óz betinshe talim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-11" title={<span>Óz betinshe tálim shınığıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-11">
                                 <Link to="/11-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -343,12 +343,12 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="joybar-jumışları-11" title={<span>Joybar jumışları</span>} >
+                        <Menu.SubMenu key="joybar-jumışları-11" title={<span>Joybar jumısları</span>} >
                             <Menu.Item key="joybar-jumışları-tekst-11">
-                                <Link to="/11-klass/joybar-jumışları/tekst">Joybar jumislar teksti</Link>
+                                <Link to="/11-klass/joybar-jumışları/tekst"> Joybar jumıslar teksti</Link>
                             </Menu.Item>
                             <Menu.Item key="joybar-jumışları-video-11">
-                                <Link to="/11-klass/joybar-jumışları/video">Video joybar jumislar</Link>
+                                <Link to="/11-klass/joybar-jumışları/video">Video joybar jumıslar</Link>
                             </Menu.Item>
                         </Menu.SubMenu>
 
