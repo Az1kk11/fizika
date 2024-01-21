@@ -69,7 +69,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="ameliy-shınığıwlar-7" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="ameliy-shınığıwlar-7" title={<span>Ámeliy shınıǵıwlar</span>} >
                             <Menu.Item key="ameliyler-tekst-7">
                                 <Link to="/7-klass/ameliyler/tekst">Ameliyler teksti</Link>
                             </Menu.Item>
@@ -90,7 +90,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-7" title={<span>Óz betinshe tálim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-7" title={<span>Óz betinshe tálim shınıǵıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-7">
                                 <Link to="/7-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -130,7 +130,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="ameliy-shınığıwlar-8" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="ameliy-shınığıwlar-8" title={<span>Ámeliy shınıǵıwlar</span>} >
                             <Menu.Item key="ameliyler-tekst-8">
                                 <Link to="/8-klass/ameliyler/tekst">Ameliyler teksti</Link>
                             </Menu.Item>
@@ -151,7 +151,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-8" title={<span>Óz betinshe tálim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-8" title={<span>Óz betinshe tálim shınıǵıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-8">
                                 <Link to="/8-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -191,7 +191,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="ameliy-shınığıwlar-9" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="ameliy-shınığıwlar-9" title={<span>Ámeliy shınıǵıwlar</span>} >
                             <Menu.Item key="ameliyler-tekst-9">
                                 <Link to="/9-klass/ameliyler/tekst">Ameliyler teksti</Link>
                             </Menu.Item>
@@ -212,7 +212,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-9" title={<span>Óz betinshe tálim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-9" title={<span>Óz betinshe tálim shınıǵıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-9">
                                 <Link to="/9-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -252,7 +252,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="ameliy-shınığıwlar-10" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="ameliy-shınıǵıwlar-10" title={<span>Ámeliy shınıǵıwlar</span>} >
                             <Menu.Item key="ameliyler-tekst-10">
                                 <Link to="/10-klass/ameliyler/tekst">Ameliyler teksti</Link>
                             </Menu.Item>
@@ -261,7 +261,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="laboratoriya-shınıgıwları-10" title={<span>Laboratoriya shınıǵıwları</span>} >
+                        <Menu.SubMenu key="laboratoriya-shınıǵıwları-10" title={<span>Laboratoriya shınıǵıwları</span>} >
                             <Menu.Item key="laboratoriya-tekst-10">
                                 <Link to="/10-klass/laboratoriyalar/tekst">Laboratoriyalar teksti</Link>
                             </Menu.Item>
@@ -273,7 +273,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-10" title={<span>Óz betinshe tálim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-10" title={<span>Óz betinshe tálim shınıǵıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-10">
                                 <Link to="/10-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -313,7 +313,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="ameliy-shınığıwlar-11" title={<span>Ámeliy shınığıwlar</span>} >
+                        <Menu.SubMenu key="ameliy-shınığıwlar-11" title={<span>Ámeliy shınıǵıwlar</span>} >
                             <Menu.Item key="ameliyler-tekst-11">
                                 <Link to="/11-klass/ameliyler/tekst">Ameliyler teksti</Link>
                             </Menu.Item>
@@ -334,7 +334,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                             </Menu.Item>
                         </Menu.SubMenu>
 
-                        <Menu.SubMenu key="oz-betinshe-11" title={<span>Óz betinshe tálim shınığıwları</span>} >
+                        <Menu.SubMenu key="oz-betinshe-11" title={<span>Óz betinshe tálim shınıǵıwları</span>} >
                             <Menu.Item key="oz-betinshe-tekst-11">
                                 <Link to="/11-klass/oz-betinshe/tekst">Óz betinshe teksti</Link>
                             </Menu.Item>
@@ -394,11 +394,11 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                     <Link to="/bahalaw_kriteriyalari">Bahalaw kriteriyaları</Link>
                 </Menu.Item>
 
-                <Menu.Item key="70">
+                <Menu.Item key="gúwalıqlar">
                     <Link to="/gúwalıqlar">Gúwalıqlar</Link>
                 </Menu.Item>
 
-                <Menu.Item key="771">
+                <Menu.Item key="avtor">
                     <Link to="/avtor">Avtor haqqında maǵlıwmat</Link>
                 </Menu.Item>
 
