@@ -13,7 +13,7 @@ export const LayoutPage: React.FC = () => {
   return (
     <Layout hasSider>
       <LeftNavbar collapsed={collapsed} setCollapsed={setCollapsed} />
-      <Layout className="site-layout" style={{ marginLeft: 300 }}>
+      <Layout className="site-layout" style={{ marginLeft: 330 }}>
         <button
           onClick={() => setCollapsed(!collapsed)}
           style={collapsed ? {display: 'none'} : {}}

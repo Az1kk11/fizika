@@ -24,10 +24,10 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                 left: 0,
                 top: 0,
                 bottom: 0,
-                width: '300px',
+                width: '330px',
             }}
             className={collapsed ? '' : 'navbar'}
-            width={300}
+            width={330}
         >
             <span
                 onClick={() => setCollapsed(!collapsed)}
