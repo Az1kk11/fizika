@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import logo from '../../assets/cifrlÍ-talim-ortalÍǵÍ.png'
+import logo from '../../assets/image/cifrlÍ-talim-ortalÍǵÍ.png'
 
 export const Home = () => {
   return (

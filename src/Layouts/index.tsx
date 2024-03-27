@@ -16,13 +16,13 @@ export const LayoutPage: React.FC = () => {
       <Layout className="site-layout" style={{ marginLeft: 330 }}>
         <button
           onClick={() => setCollapsed(!collapsed)}
-          style={collapsed ? {display: 'none'} : {}}
+          style={collapsed ? { display: 'none' } : {}}
           className='bars-line'
         >
           {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         </button>
         <Content style={{ padding: '24px 16px 16px', overflow: 'initial' }}>
-          <div style={{ textAlign: 'center', minHeight: '100vh' }}>
+          <div style={{ textAlign: 'center', minHeight: '90vh' }}>
             <Routers />
           </div>
         </Content>
