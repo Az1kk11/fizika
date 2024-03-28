@@ -25,6 +25,7 @@ export const LeftNavbar: React.FC<collapsed> = ({ collapsed, setCollapsed }) => 
                 top: 0,
                 bottom: 0,
                 width: '330px',
+                zIndex: 999
             }}
             className={collapsed ? '' : 'navbar'}
             width={330}

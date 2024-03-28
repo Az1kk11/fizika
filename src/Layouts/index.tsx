@@ -22,7 +22,7 @@ export const LayoutPage: React.FC = () => {
           {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         </button>
         <Content style={{ padding: '24px 16px 16px', overflow: 'initial' }}>
-          <div style={{ textAlign: 'center', minHeight: '90vh' }}>
+          <div style={{ minHeight: '90vh' }}>
             <Routers />
           </div>
         </Content>
