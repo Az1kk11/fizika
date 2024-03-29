@@ -13,6 +13,9 @@ import {
     PrezentatsiyaTekst10, PrezentatsiyaTekst11, PrezentatsiyaTekst7, PrezentatsiyaTekst8, PrezentatsiyaTekst9,
     PrezentatsiyaVideo10, PrezentatsiyaVideo11, PrezentatsiyaVideo7, PrezentatsiyaVideo8, PrezentatsiyaVideo9
 } from '../pages'
+import { Ampermetr } from '../pages/Panler-bazasi/7-klass/Ámeliy-shınıǵıwlar/tekst/Ampermetr'
+import Ommetr from '../pages/Panler-bazasi/7-klass/Ámeliy-shınıǵıwlar/tekst/Ommetr'
+import Reostat from '../pages/Panler-bazasi/7-klass/Ámeliy-shınıǵıwlar/tekst/Reostat'
 
 const Routers: React.FC = () => {
     return (
@@ -34,6 +37,11 @@ const Routers: React.FC = () => {
             <Route path='/panler-bazasi/7-klass/ameliy/video' element={< AmeliyVideo7 />} />
             <Route path='/panler-bazasi/7-klass/oz-betinshe/tekst' element={< OzBetinsheTekst7 />} />
             <Route path='/panler-bazasi/7-klass/oz-betinshe/video' element={< OzBetinsheVideo7 />} />
+
+            
+            <Route path='/panler-bazasi/7-klass/ameliy/tekst/Ampermetr-jardeminde-tutınıwshıdan-ótip-atırǵan-tok-kúshin-ólshew.pdf' element={< Ampermetr />} />
+            <Route path='/panler-bazasi/7-klass/ameliy/tekst/Ommetr-járdeminde-rezistordıń-qarsılıǵın-ólshew.pdf' element={< Ommetr />} />
+            <Route path='/panler-bazasi/7-klass/ameliy/tekst/Reostat-járdeminde-tok-kúshin-tártiplestiriw.pdf' element={< Reostat />} />
 
             {/* 8-Klass */}
             <Route path='/panler-bazasi/8-klass/joybar-jumislari/tekst' element={< JoyborTekst8 />} />
@@ -94,6 +102,7 @@ const Routers: React.FC = () => {
             <Route path='/panler-bazasi/11-klass/ameliy/video' element={< AmeliyVideo11 />} />
             <Route path='/panler-bazasi/11-klass/oz-betinshe/tekst' element={< OzBetinsheTekst11 />} />
             <Route path='/panler-bazasi/11-klass/oz-betinshe/video' element={< OzBetinsheVideo11 />} />
+
 
         </Routes>
     )
